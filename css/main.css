@@ -1,0 +1,305 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #FFFFFF;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    width:  100%;
+    height: 100vh;
+    position: relative;
+}
+
+div.lang{
+    position: absolute;
+    z-index: 1000;
+    top: 5%;
+    right: 5%;
+    font-weight: 400;
+    font-size: clamp(1rem, 2rem, 8rem);
+    color: #FFFFFF;
+}
+
+a.lbt{
+    color: inherit;
+    text-decoration: none;
+}
+
+table, td{
+    border: 5px solid #FFFFFF;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 5px;
+}
+
+div.home{
+    position: absolute;
+    z-index: 1000;
+    bottom: 5%;
+    right: 5%;
+    font-weight: 400;
+    font-size: clamp(1rem, 2rem, 8rem);
+    color: #FFFFFF;
+}
+
+div.home a{
+    color: inherit;
+    text-decoration: none;
+    border: 5px solid #FFFFFF;
+    padding: 5px;
+}
+
+section h1#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: clamp(2rem, 10vw, 16rem);
+    font-weight: 100;
+    color: #FFFFFF;
+    z-index: 100;
+    padding: 0.2em 0.3em 0.2em 0.3em;
+    border: 10px solid #FFFFFF;
+    white-space: nowrap;
+}
+
+img#full{
+    filter: brightness(40%);
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+}
+
+section.description{
+    height: auto;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+
+
+section.description{
+    height: auto;
+}
+
+section.headline{
+    height:300px;
+    position: relative;
+    background-color:#333333 ;
+}
+
+section.headline h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    color: #FFFFFF;
+    font-size: clamp(2rem, 3vw, 16rem);
+}
+
+section.gallery{
+    height: auto;
+}
+
+section.access{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    height: auto;
+    padding-top: 50px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+section.access p{
+    
+    color: #333333;
+    font-size: clamp(2rem, 2vw, 16rem);
+}
+
+iframe.map{
+    width: 50%;
+}
+
+p.text{
+    padding-left: 10%;
+}
+
+footer.ft{
+    height:50px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+.description{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.fade{
+    display: flex;
+    gap: 30px;
+    flex-wrap: nowrap;
+    height: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+.im1{
+    width: 45vw;
+    justify-content: center;
+}
+
+.tx1{
+    margin-top: 5%;
+    width: 45vw;
+    text-align: center;
+    
+
+}
+
+.im1 img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.im2{
+    width: 45vw;
+    justify-content: center;
+}
+
+.tx2{
+    margin-top: 5%;
+    width: 45vw;
+    text-align: center;
+}
+
+.im2 img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.im3{
+    width: 45vw;
+    justify-content: center;
+}
+
+.tx3{
+    margin-top: 5%;
+    width: 45vw;
+    text-align: center;
+}
+
+.im3 img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.im4{
+    width: 45vw;
+    justify-content: center;
+}
+
+.tx4{
+    width: 45vw;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.im4 img{
+    height: 400px;
+    width: 100%;
+    object-fit:cover;
+}
+
+.im5{
+    width: 45vw;
+    justify-content: center;
+}
+
+.tx5{
+    width: 45vw;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.im5 img{
+    height: 400px;
+    width: 100%;
+    object-fit:cover;
+}
+
+.im6{
+    width: 45vw;
+    justify-content: center;
+}
+
+.tx6{
+    width: 45vw;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.im6 img{
+    height: 400px;
+    width: 100%;
+    object-fit:cover;
+}
+
+.gallery{
+    width: 100%;
+    text-align: center;
+    max-height: 1000px;
+}
+
+#lightgallery{
+    position: relative;
+}
+
+
+
+section h1#gtext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: clamp(2rem, 4vw, 16rem);
+    font-weight: 100;
+    color: #FFFFFF;
+    z-index: 100;
+    padding: 0.2em 0.3em 0.2em 0.3em;
+    border: 10px solid #FFFFFF;
+}
+
+.shadow{
+    filter: brightness(40%);
+    width: 100%;
+    max-height: 1000px;
+    object-fit: cover;
+}
