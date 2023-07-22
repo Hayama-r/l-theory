@@ -162,7 +162,7 @@ footer.ft{
     display: flex;
     gap: 30px;
     flex-wrap: nowrap;
-    height: 500px;
+    height: auto;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 100px;
@@ -182,7 +182,7 @@ footer.ft{
 }
 
 .im1 img{
-    height: 400px;
+    height: 600px;
     width: 100%;
     object-fit: cover;
 }
@@ -199,7 +199,7 @@ footer.ft{
 }
 
 .im2 img{
-    height: 400px;
+    height: 600px;
     width: 100%;
     object-fit: cover;
 }
@@ -216,7 +216,7 @@ footer.ft{
 }
 
 .im3 img{
-    height: 400px;
+    height: 600px;
     width: 100%;
     object-fit: cover;
 }
@@ -233,7 +233,7 @@ footer.ft{
 }
 
 .im4 img{
-    height: 400px;
+    height: 600px;
     width: 100%;
     object-fit:cover;
 }
@@ -250,7 +250,7 @@ footer.ft{
 }
 
 .im5 img{
-    height: 400px;
+    height: 600px;
     width: 100%;
     object-fit:cover;
 }
@@ -267,7 +267,7 @@ footer.ft{
 }
 
 .im6 img{
-    height: 400px;
+    height: 600px;
     width: 100%;
     object-fit:cover;
 }
